@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="chart">
+
+        <!--axisX 的始点-->
+        <!--axisX 的末点-->
+        <!--axisY0 的始末点-->
+        <!--axisY1 的始末点-->
+        <!--axisY2 的始末点-->
+        <!--axisY1 、 Y2 的间距-->
+        <!--axisX 的颜色 -->
+        <!--axisY0 的颜色设置-->
+        <!--axisY1 的颜色设置-->
+        <!--axisY2 的颜色设置-->
+        <!--Y0 线的颜色 -->
+        <!--Y1 线的颜色-->
+        <!--Y2 线的颜色-->
+        <!--坐标轴刻度的位置：内 、外-->
+        <!--刻度的长度-->
+        <!--刻度的颜色-->
+        <!--刻度标记离坐标轴的距离-->
+        <!--刻度标记的位置（坐标轴内、外）-->
+        <!--坐标轴字体的颜色-->
+        <!--坐标轴字体的大小-->
+        <!--是否显示图例-->
+        <!--绘制模式：拟合、过点-->
+        <!--自动计算轴刻度的范围-->
+        <!--自动计算X轴刻度范围-->
+        <!--自动计算Y0轴刻度范围-->
+        <!--自动计算Y1轴的刻度范围-->
+        <!--自动计算Y2轴的刻度分为-->
+
+        <attr name="axisX_start"  format="integer|float"  />
+        <attr name="axisX_end" format="integer|float"/>
+        <attr name="axisY0_start" format="float|integer"/>
+        <attr name="axisY0_end" format="float|integer"/>
+        <attr name="axisY1_start" format="integer|float"/>
+        <attr name="axisY1_end" format="float|integer"/>
+        <attr name="axisY2_start" format="integer|float"/>
+        <attr name="axisY2_end" format="integer|float"/>
+        <attr name="axisY1_Y2" format="integer|float"/>
+        <attr name="axisX_color" format="color"/>
+        <attr name="axisY0_color" format="color"/>
+        <attr name="axisY1_color" format="color"/>
+        <attr name="axisY2_color" format="color"/>
+        <attr name="axisY0_line_color" format="reference|color"/>
+        <attr name="axisY1_line_color" format="reference|color"/>
+        <attr name="axisY2_line_color" format="reference|color"/>
+        <!--所有刻度都在内部-->
+        <attr name="axis_dividing_in" format="boolean"/>
+        <attr name="axisX_dividing_in" format="boolean"/>
+        <attr name="axisY_dividing_in" format="boolean"/>
+        <attr name="axisY0_dividing_in" format="boolean"/>
+        <attr name="axisY1_dividing_in" format="boolean"/>
+        <attr name="axisY2_dividing_in" format="boolean"/>
+        <attr name="dividing_length" format="float|integer"/>
+        <attr name="dividing_color" format="reference|color"/>
+        <attr name="axis_dividing_distance" format="integer|float"/>
+        <attr name="axis_textName_size" format="dimension"/>
+        <attr name="dividing_name_size" format="dimension"/>
+        <attr name="autoAxisDividing" format="boolean"/>
+        <attr name="autoXDividing" format="boolean"/>
+        <attr name="autoY0Dividing" format="boolean"/>
+        <attr name="autoY1Dividing" format="boolean"/>
+        <attr name="autoY2Dividing" format="boolean"/>
+
+        <attr name="drawModle">
+            <enum name="matching" value="0" />
+            <enum name="pass" value="1" />
+        </attr>
+
+
+    </declare-styleable>
+
+</resources>
